@@ -23,7 +23,7 @@ const data = [
   },
   {
     title: "Anti-Dump",
-    text: "Holders can only sell maximum 0.0025% of the total supply.",
+    text: "Holders can only sell maximum 0.25% of the total supply.",
   },
 ];
 
