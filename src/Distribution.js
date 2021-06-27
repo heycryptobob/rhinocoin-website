@@ -3,7 +3,7 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 const data = [
   {
     title: "40% Pool",
-    text: "40% of fees is transformed into liquidity. This helps create a price floor.",
+    text: "40% of fees is transformed into liquidity. This helps create a price floor (stability).",
   },
   {
     title: "30% Fund",
@@ -34,7 +34,7 @@ function Feature({ feature }) {
 
 export default function Distribution() {
   return (
-    <Container id="fees" className="p-5 m-5">
+    <Container id="fees" className="pt-5">
       <Row>
         <Col>
           <h2 className="display-6 fw-bold text-white text-center pb-5">

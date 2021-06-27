@@ -44,10 +44,10 @@ function Feature({ feature }) {
 
 export default function Tokenomics() {
   return (
-    <Container id="tokenomics" className="p-5 m-5">
+    <Container id="tokenomics" className="pt-5">
       <Row className="pb-5 text-center">
         <Col>
-          <h2 className="display-6 fw-bold text-white text-center pb-5">
+          <h2 className="display-6 fw-bold text-white text-center p4-5">
             <span className="border-bottom border-4 border-danger pb-2">
               Tokenomics
             </span>

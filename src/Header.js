@@ -5,9 +5,9 @@ import { TelegramPlane } from "@styled-icons/fa-brands";
 export default function Header() {
   return (
     <Navbar bg="transparent" variant="dark" expand="lg" id="header">
-      <Container className="ps-5 pe-5">
+      <Container>
         <Navbar.Brand href="#header">
-          <img src={logo} width="80" height="80" alt="logo" />
+          <img src={logo} width="48" height="48" alt="logo" />
           <span>RhinoCoin</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -18,7 +18,7 @@ export default function Header() {
             <Nav.Link href="#roadmap">Roadmap</Nav.Link>
             {/* <Nav.Link href="#fund">Fund</Nav.Link> */}
             {/* <Nav.Link href="#team">Team</Nav.Link> */}
-            <Nav.Link href="https://t.me/UltimateCoinOfficial"
+            <Nav.Link href="https://t.me/RhinoCoinOfficial"
               target="_blank"
               rel="noreferrer"
               ><TelegramPlane size={24} /></Nav.Link>

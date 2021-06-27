@@ -11,7 +11,7 @@ const data = [
   },
   {
     title: "Community Driven",
-    text: "The community runs the show, the team is facilitates competitions.",
+    text: "The community runs the show, the team facilitates competitions.",
   },
   {
     title: "Anti-Whale",
@@ -32,7 +32,9 @@ function Feature({ feature }) {
     <Col className="p-4">
       <Card bg="transparent" className="border-0 p-4">
         <Card.Body>
-          <Card.Title className="text-white fw-bolder fs-3 pb-3">{feature.title}</Card.Title>
+          <Card.Title className="text-white fw-bolder fs-3 pb-3">
+            {feature.title}
+          </Card.Title>
           <Card.Text>{feature.text}</Card.Text>
         </Card.Body>
       </Card>
@@ -42,11 +44,13 @@ function Feature({ feature }) {
 
 export default function Features() {
   return (
-    <Container id="features" className="p-5 m-5">
+    <Container id="features" className="pt-5">
       <Row>
         <Col>
           <h2 className="display-6 fw-bold text-white text-center pb-5">
-            <span className="border-bottom border-4 border-success pb-2">Big giveaways. Great features.</span>
+            <span className="border-bottom border-4 border-success pb-2">
+              Big giveaways. Strong protections.
+            </span>
           </h2>
         </Col>
       </Row>

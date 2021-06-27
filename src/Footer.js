@@ -21,7 +21,7 @@ export default function Footer() {
           </Col>
           <Col className="d-flex justify-content-end">
             <a
-              href="https://t.me/UltimateCoinOfficial"
+              href="https://t.me/RhinoCoinOfficial"
               target="_blank"
               rel="noreferrer"
               className="text-white"

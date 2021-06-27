@@ -90,7 +90,7 @@ function Feature({ feature }) {
 
 export default function Roadmap() {
   return (
-    <Container id="roadmap" className="p-5 m-5">
+    <Container id="roadmap" className="pt-5">
       <Row>
         <Col>
           <h2 className="display-6 fw-bold text-white text-center pb-5">
