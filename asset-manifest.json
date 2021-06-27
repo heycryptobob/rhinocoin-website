@@ -1,23 +1,24 @@
 {
   "files": {
     "main.css": "/rhinocoin-website/static/css/main.0ab26960.chunk.css",
-    "main.js": "/rhinocoin-website/static/js/main.a62f7bf8.chunk.js",
-    "main.js.map": "/rhinocoin-website/static/js/main.a62f7bf8.chunk.js.map",
-    "runtime-main.js": "/rhinocoin-website/static/js/runtime-main.14823162.js",
-    "runtime-main.js.map": "/rhinocoin-website/static/js/runtime-main.14823162.js.map",
-    "static/js/2.8541916c.chunk.js": "/rhinocoin-website/static/js/2.8541916c.chunk.js",
-    "static/js/2.8541916c.chunk.js.map": "/rhinocoin-website/static/js/2.8541916c.chunk.js.map",
-    "static/js/3.0694b241.chunk.js": "/rhinocoin-website/static/js/3.0694b241.chunk.js",
-    "static/js/3.0694b241.chunk.js.map": "/rhinocoin-website/static/js/3.0694b241.chunk.js.map",
+    "main.js": "/rhinocoin-website/static/js/main.bde206a9.chunk.js",
+    "main.js.map": "/rhinocoin-website/static/js/main.bde206a9.chunk.js.map",
+    "runtime-main.js": "/rhinocoin-website/static/js/runtime-main.b8d58fc1.js",
+    "runtime-main.js.map": "/rhinocoin-website/static/js/runtime-main.b8d58fc1.js.map",
+    "static/js/2.de3ec8f8.chunk.js": "/rhinocoin-website/static/js/2.de3ec8f8.chunk.js",
+    "static/js/2.de3ec8f8.chunk.js.map": "/rhinocoin-website/static/js/2.de3ec8f8.chunk.js.map",
+    "static/js/3.00ba18af.chunk.js": "/rhinocoin-website/static/js/3.00ba18af.chunk.js",
+    "static/js/3.00ba18af.chunk.js.map": "/rhinocoin-website/static/js/3.00ba18af.chunk.js.map",
     "index.html": "/rhinocoin-website/index.html",
     "static/css/main.0ab26960.chunk.css.map": "/rhinocoin-website/static/css/main.0ab26960.chunk.css.map",
-    "static/js/2.8541916c.chunk.js.LICENSE.txt": "/rhinocoin-website/static/js/2.8541916c.chunk.js.LICENSE.txt",
+    "static/js/2.de3ec8f8.chunk.js.LICENSE.txt": "/rhinocoin-website/static/js/2.de3ec8f8.chunk.js.LICENSE.txt",
+    "static/media/Title.92bf8ca4.svg": "/rhinocoin-website/static/media/Title.92bf8ca4.svg",
     "static/media/logo.f333e8a4.svg": "/rhinocoin-website/static/media/logo.f333e8a4.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.14823162.js",
-    "static/js/2.8541916c.chunk.js",
+    "static/js/runtime-main.b8d58fc1.js",
+    "static/js/2.de3ec8f8.chunk.js",
     "static/css/main.0ab26960.chunk.css",
-    "static/js/main.a62f7bf8.chunk.js"
+    "static/js/main.bde206a9.chunk.js"
   ]
 }
