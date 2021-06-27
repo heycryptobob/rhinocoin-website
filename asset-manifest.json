@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/rhinocoin-website/static/css/main.0ab26960.chunk.css",
-    "main.js": "/rhinocoin-website/static/js/main.fe553220.chunk.js",
-    "main.js.map": "/rhinocoin-website/static/js/main.fe553220.chunk.js.map",
-    "runtime-main.js": "/rhinocoin-website/static/js/runtime-main.3b4374f9.js",
-    "runtime-main.js.map": "/rhinocoin-website/static/js/runtime-main.3b4374f9.js.map",
-    "static/js/2.f24e387a.chunk.js": "/rhinocoin-website/static/js/2.f24e387a.chunk.js",
-    "static/js/2.f24e387a.chunk.js.map": "/rhinocoin-website/static/js/2.f24e387a.chunk.js.map",
-    "static/js/3.36dfaced.chunk.js": "/rhinocoin-website/static/js/3.36dfaced.chunk.js",
-    "static/js/3.36dfaced.chunk.js.map": "/rhinocoin-website/static/js/3.36dfaced.chunk.js.map",
+    "main.js": "/rhinocoin-website/static/js/main.fab6b4c7.chunk.js",
+    "main.js.map": "/rhinocoin-website/static/js/main.fab6b4c7.chunk.js.map",
+    "runtime-main.js": "/rhinocoin-website/static/js/runtime-main.14823162.js",
+    "runtime-main.js.map": "/rhinocoin-website/static/js/runtime-main.14823162.js.map",
+    "static/js/2.8541916c.chunk.js": "/rhinocoin-website/static/js/2.8541916c.chunk.js",
+    "static/js/2.8541916c.chunk.js.map": "/rhinocoin-website/static/js/2.8541916c.chunk.js.map",
+    "static/js/3.0694b241.chunk.js": "/rhinocoin-website/static/js/3.0694b241.chunk.js",
+    "static/js/3.0694b241.chunk.js.map": "/rhinocoin-website/static/js/3.0694b241.chunk.js.map",
     "index.html": "/rhinocoin-website/index.html",
     "static/css/main.0ab26960.chunk.css.map": "/rhinocoin-website/static/css/main.0ab26960.chunk.css.map",
-    "static/js/2.f24e387a.chunk.js.LICENSE.txt": "/rhinocoin-website/static/js/2.f24e387a.chunk.js.LICENSE.txt",
+    "static/js/2.8541916c.chunk.js.LICENSE.txt": "/rhinocoin-website/static/js/2.8541916c.chunk.js.LICENSE.txt",
     "static/media/logo.f333e8a4.svg": "/rhinocoin-website/static/media/logo.f333e8a4.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.3b4374f9.js",
-    "static/js/2.f24e387a.chunk.js",
+    "static/js/runtime-main.14823162.js",
+    "static/js/2.8541916c.chunk.js",
     "static/css/main.0ab26960.chunk.css",
-    "static/js/main.fe553220.chunk.js"
+    "static/js/main.fab6b4c7.chunk.js"
   ]
 }
