@@ -59,7 +59,7 @@ export default function Tokenomics() {
 
         <Row></Row>
 
-        <Row xs={1} sm={2} lg={4} className="d-flex justify-content-center">
+        <Row xs={1} sm={2} lg={4} className="d-flex justify-content-center align-items-stretch">
           {data.map((d, k) => (
             <Feature key={k} feature={d} />
           ))}

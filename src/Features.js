@@ -56,7 +56,7 @@ export default function Features() {
             </h2>
           </Col>
         </Row>
-        <Row xs={1} md={2} lg={3}>
+        <Row xs={1} md={2} lg={3} className="d-flex align-items-stretch">
           {data.map((d, k) => (
             <Feature key={k} feature={d} />
           ))}
