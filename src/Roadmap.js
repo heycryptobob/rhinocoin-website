@@ -1,6 +1,5 @@
 import { Container, Row, Col, Card, ListGroup } from "react-bootstrap";
 import { Circle, CheckCircle } from "@styled-icons/fa-regular";
-import Slide from "react-reveal/Slide";
 
 const STATE = { TODO: 0, ONGOING: 1, DONE: 2 };
 
@@ -91,7 +90,7 @@ function Feature({ feature }) {
 
 export default function Roadmap() {
   return (
-    <Slide bottom>
+
       <Container id="roadmap" className="pt-5 pb-5">
         <Row>
           <Col>
@@ -108,6 +107,6 @@ export default function Roadmap() {
           ))}
         </Row>
       </Container>
-    </Slide>
+
   );
 }

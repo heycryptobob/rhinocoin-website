@@ -25,7 +25,7 @@ export default function Hero() {
             HOLD <span className="text-danger">$RHINO</span>,<br />
             WIN $RHINO.
           </h1>
-          <p>
+          <p className="fs-4">
             The biggest daily competition token that also shields you from
             whales, bots, and dumps.
           </p>
