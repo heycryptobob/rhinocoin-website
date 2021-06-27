@@ -2,8 +2,8 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 
 const data = [
   {
-    title: "Daily Competitions",
-    text: "Holders can win $RHINO by participating in daily competitions.",
+    title: "Daily Contests",
+    text: "Winners are rewarded $RHINO by participating in contests.",
   },
   {
     title: "Hold & Earn",

@@ -2,15 +2,15 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 
 const data = [
   {
-    title: "100m",
+    title: "1 Trillion",
     text: "Total supply",
   },
   {
-    title: "2.5m",
+    title: "2.5%",
     text: "Max. hold",
   },
   {
-    title: "250k",
+    title: "0.25%",
     text: "Max. sell",
   },
   {
