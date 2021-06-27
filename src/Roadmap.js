@@ -1,5 +1,6 @@
 import { Container, Row, Col, Card, ListGroup } from "react-bootstrap";
 import { Circle, CheckCircle } from "@styled-icons/fa-regular";
+import Slide from "react-reveal/Slide";
 
 const STATE = { TODO: 0, ONGOING: 1, DONE: 2 };
 
@@ -90,7 +91,7 @@ function Feature({ feature }) {
 
 export default function Roadmap() {
   return (
-    <Container id="roadmap" className="pt-5">
+    <Container id="roadmap" className="pt-5 pb-5">
       <Row>
         <Col>
           <h2 className="display-6 fw-bold text-white text-center pb-5">
@@ -101,9 +102,11 @@ export default function Roadmap() {
         </Col>
       </Row>
       <Row xs={1} md={2} lg={3}>
+      <Slide bottom>
         {data.map((d, k) => (
           <Feature key={k} feature={d} />
         ))}
+        </Slide>
       </Row>
     </Container>
   );

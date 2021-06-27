@@ -1,4 +1,5 @@
 import { Container, Row, Col, Card } from "react-bootstrap";
+import Slide from "react-reveal/Slide";
 
 const data = [
   {
@@ -44,7 +45,7 @@ function Feature({ feature }) {
 
 export default function Tokenomics() {
   return (
-    <Container id="tokenomics" className="pt-5">
+    <Container id="tokenomics" className="pt-5 pb-5">
       <Row className="pb-5 text-center">
         <Col>
           <h2 className="display-6 fw-bold text-white text-center p4-5">
@@ -58,9 +59,11 @@ export default function Tokenomics() {
       <Row></Row>
 
       <Row xs={1} sm={2} lg={4} className="d-flex justify-content-center">
-        {data.map((d, k) => (
-          <Feature key={k} feature={d} />
-        ))}
+        <Slide bottom>
+          {data.map((d, k) => (
+            <Feature key={k} feature={d} />
+          ))}
+        </Slide>
       </Row>
 
       <Row>

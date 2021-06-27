@@ -1,4 +1,5 @@
 import { Container, Row, Col, Card } from "react-bootstrap";
+import Slide from "react-reveal/Slide";
 
 const data = [
   {
@@ -44,7 +45,7 @@ function Feature({ feature }) {
 
 export default function Features() {
   return (
-    <Container id="features" className="pt-5">
+    <Container id="features" className="pt-5 pb-5">
       <Row>
         <Col>
           <h2 className="display-6 fw-bold text-white text-center pb-5">
@@ -55,9 +56,11 @@ export default function Features() {
         </Col>
       </Row>
       <Row xs={1} md={2} lg={3}>
-        {data.map((d, k) => (
-          <Feature key={k} feature={d} />
-        ))}
+        <Slide bottom>
+          {data.map((d, k) => (
+            <Feature key={k} feature={d} />
+          ))}
+        </Slide>
       </Row>
     </Container>
   );
