@@ -45,35 +45,35 @@ function Feature({ feature }) {
 
 export default function Tokenomics() {
   return (
-    <Container id="tokenomics" className="pt-5 pb-5">
-      <Row className="pb-5 text-center">
-        <Col>
-          <h2 className="display-6 fw-bold text-white text-center p4-5">
-            <span className="border-bottom border-4 border-danger pb-2">
-              Tokenomics
-            </span>
-          </h2>
-        </Col>
-      </Row>
+    <Slide bottom>
+      <Container id="tokenomics" className="pt-5 pb-5">
+        <Row className="pb-5 text-center">
+          <Col>
+            <h2 className="display-6 fw-bold text-white text-center p4-5">
+              <span className="border-bottom border-4 border-danger pb-2">
+                Tokenomics
+              </span>
+            </h2>
+          </Col>
+        </Row>
 
-      <Row></Row>
+        <Row></Row>
 
-      <Row xs={1} sm={2} lg={4} className="d-flex justify-content-center">
-        <Slide bottom>
+        <Row xs={1} sm={2} lg={4} className="d-flex justify-content-center">
           {data.map((d, k) => (
             <Feature key={k} feature={d} />
           ))}
-        </Slide>
-      </Row>
+        </Row>
 
-      <Row>
-        <Col md={{ offset: 3, span: 6 }} className="text-center">
-          <p className="fs-7">
-            Weak hands tax is applied to sell transactions where the wallet had
-            a buy transaction in the previous 24 hours.
-          </p>
-        </Col>
-      </Row>
-    </Container>
+        <Row>
+          <Col md={{ offset: 3, span: 6 }} className="text-center">
+            <p className="fs-7">
+              Weak hands tax is applied to sell transactions where the wallet
+              had a buy transaction in the previous 24 hours.
+            </p>
+          </Col>
+        </Row>
+      </Container>
+    </Slide>
   );
 }

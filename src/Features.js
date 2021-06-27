@@ -45,23 +45,23 @@ function Feature({ feature }) {
 
 export default function Features() {
   return (
-    <Container id="features" className="pt-5 pb-5">
-      <Row>
-        <Col>
-          <h2 className="display-6 fw-bold text-white text-center pb-5">
-            <span className="border-bottom border-4 border-success pb-2">
-              Big giveaways. Strong protections.
-            </span>
-          </h2>
-        </Col>
-      </Row>
-      <Row xs={1} md={2} lg={3}>
-        <Slide bottom>
+    <Slide bottom>
+      <Container id="features" className="pt-5 pb-5">
+        <Row>
+          <Col>
+            <h2 className="display-6 fw-bold text-white text-center pb-5">
+              <span className="border-bottom border-4 border-success pb-2">
+                Big giveaways. Strong protections.
+              </span>
+            </h2>
+          </Col>
+        </Row>
+        <Row xs={1} md={2} lg={3}>
           {data.map((d, k) => (
             <Feature key={k} feature={d} />
           ))}
-        </Slide>
-      </Row>
-    </Container>
+        </Row>
+      </Container>
+    </Slide>
   );
 }

@@ -91,23 +91,23 @@ function Feature({ feature }) {
 
 export default function Roadmap() {
   return (
-    <Container id="roadmap" className="pt-5 pb-5">
-      <Row>
-        <Col>
-          <h2 className="display-6 fw-bold text-white text-center pb-5">
-            <span className="border-bottom border-4 border-success pb-2">
-              Our Roadmap
-            </span>
-          </h2>
-        </Col>
-      </Row>
-      <Row xs={1} md={2} lg={3}>
-      <Slide bottom>
-        {data.map((d, k) => (
-          <Feature key={k} feature={d} />
-        ))}
-        </Slide>
-      </Row>
-    </Container>
+    <Slide bottom>
+      <Container id="roadmap" className="pt-5 pb-5">
+        <Row>
+          <Col>
+            <h2 className="display-6 fw-bold text-white text-center pb-5">
+              <span className="border-bottom border-4 border-success pb-2">
+                Our Roadmap
+              </span>
+            </h2>
+          </Col>
+        </Row>
+        <Row xs={1} md={2} lg={3}>
+          {data.map((d, k) => (
+            <Feature key={k} feature={d} />
+          ))}
+        </Row>
+      </Container>
+    </Slide>
   );
 }

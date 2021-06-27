@@ -25,7 +25,9 @@ function Feature({ feature }) {
     <Col className="p-4">
       <Card bg="transparent" className="border-0 p-4">
         <Card.Body>
-          <Card.Title className="text-white fw-bolder fs-3 pb-3">{feature.title}</Card.Title>
+          <Card.Title className="text-white fw-bolder fs-3 pb-3">
+            {feature.title}
+          </Card.Title>
           <Card.Text>{feature.text}</Card.Text>
         </Card.Body>
       </Card>
@@ -35,21 +37,24 @@ function Feature({ feature }) {
 
 export default function Distribution() {
   return (
-    <Container id="fees" className="pt-5 pb-5">
-      <Row>
-        <Col>
-          <h2 className="display-6 fw-bold text-white text-center pb-5">
-            <span className="border-bottom border-4 border-warning pb-2">Fee Distribution</span>
-          </h2>
-        </Col>
-      </Row>
-      <Row xs={1} md={2} lg={4}>
-      <Slide bottom>
-        {data.map((d, k) => (
-          <Feature key={k} feature={d} />
-        ))}
-        </Slide>
-      </Row>
-    </Container>
+    <Slide bottom>
+      <Container id="fees" className="pt-5 pb-5">
+        <Row>
+          <Col>
+            <h2 className="display-6 fw-bold text-white text-center pb-5">
+              <span className="border-bottom border-4 border-warning pb-2">
+                Fee Distribution
+              </span>
+            </h2>
+          </Col>
+        </Row>
+
+        <Row xs={1} md={2} lg={4} className="d-flex align-items-stretch">
+          {data.map((d, k) => (
+            <Feature key={k} feature={d} />
+          ))}
+        </Row>
+      </Container>
+    </Slide>
   );
 }
