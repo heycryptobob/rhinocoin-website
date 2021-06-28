@@ -2,23 +2,23 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 
 const data = [
   {
-    title: "1 Trillion",
+    title: "TBD",
     text: "Total supply",
   },
   {
-    title: "2.5%",
+    title: "TBD",
     text: "Max. hold",
   },
   {
-    title: "0.25%",
+    title: "TBD",
     text: "Max. sell",
   },
   {
-    title: "30 min",
+    title: "TBD",
     text: "Sell lock",
   },
   {
-    title: "10%",
+    title: "12%",
     text: "Transaction fee",
   },
   {

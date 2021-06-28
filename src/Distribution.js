@@ -2,20 +2,20 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 
 const data = [
   {
-    title: "40% Pool",
-    text: "40% of fees is transformed into liquidity. This helps create a price floor (stability).",
+    title: "4% Pool",
+    text: "4I % is transformed into liquidity. This helps create a price floor (stability).",
   },
   {
-    title: "30% Fund",
-    text: "30% of fees will go to the token fund that is used to reward our competition participants.",
+    title: "3% Fund",
+    text: "3% will go to the token fund that is used to reward our competition participants.",
   },
   {
-    title: "20% Holders",
-    text: "20% of fees will be redistributed to our loyal holders as a long-term incentive.",
+    title: "4% Holders",
+    text: "4% will be redistributed to our loyal holders as a long-term incentive.",
   },
   {
-    title: "10% Burn",
-    text: "10% of fees will be removed from circulation, increasing the value of each token.",
+    title: "1% Burn",
+    text: "1% will be removed from circulation, increasing the value of each token.",
   },
 ];
 
