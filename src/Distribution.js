@@ -3,15 +3,15 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 const data = [
   {
     title: "4% Pool",
-    text: "4I % is transformed into liquidity. This helps create a price floor (stability).",
-  },
-  {
-    title: "3% Fund",
-    text: "3% will go to the token fund that is used to reward our competition participants.",
+    text: "4% is transformed into liquidity. This helps create a price floor (stability).",
   },
   {
     title: "4% Holders",
     text: "4% will be redistributed to our loyal holders as a long-term incentive.",
+  },
+  {
+    title: "3% Fund",
+    text: "3% will go to the token fund that is used to reward our competition participants.",
   },
   {
     title: "1% Burn",
