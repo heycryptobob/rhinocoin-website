@@ -48,8 +48,8 @@ export default function Features() {
       <Row>
         <Col>
           <h2 className="display-6 fw-bold text-white text-center pb-5">
-            <span className="border-bottom border-4 border-success pb-2">
-              Big giveaways. Strong protections.
+            <span className="border-bottom border-4 border-primary pb-2">
+              Big rewards. Strong protections.
             </span>
           </h2>
         </Col>

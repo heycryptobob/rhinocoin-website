@@ -22,7 +22,7 @@ export default function Hero() {
           className="pt-5 pb-5"
         >
           <h1 className="display-4 text-white fw-bold pb-4">
-            HOLD <span className="text-danger">$RHINO</span>,<br />
+            HOLD <span className="text-primary">$RHINO</span>,<br />
             WIN $RHINO.
           </h1>
           <p className="fs-4">

@@ -1,4 +1,5 @@
-import Title from "./Title.svg"
+import banner from "./banner.svg"
+// import logo from './logo.svg'
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { TelegramPlane } from "@styled-icons/fa-brands";
 
@@ -7,7 +8,7 @@ export default function Header() {
     <Navbar bg="transparent" variant="dark" expand="lg" id="header">
       <Container>
         <Navbar.Brand href="#header">
-          <img src={Title} height="40" alt="logo" />
+          <img src={banner} height="64" alt="logo" />
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">

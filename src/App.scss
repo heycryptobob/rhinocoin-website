@@ -1,25 +1,27 @@
 // https://coolors.co/264653-2a9d8f-e9c46a-f4a261-e76f51
 
-$danger-color: #E76F51;
-$warning-color: #e9c46a;
-$success-color: #2a9d8f;
+$danger-color: #CC2936;
+$warning-color: #FCD581;
+$success-color: #09E85E;
 $body-color: rgb(255 255 255 / 40%);
+$primary-color: #1AECF7;
 
 $theme-colors: (
     "success": $success-color,
     "warning": $warning-color,
     "danger": $danger-color,
     "body": $body-color,
+    "primary": $primary-color,
 );
 
 @import "~bootstrap/scss/bootstrap";
 
 html, body {
-  background-color: #264653;
+  background-color: #114B5F;
 }
 
 .card {
-  background: linear-gradient(145deg, #264653, #ffffff26)
+  background: linear-gradient(145deg, #114B5F, #ffffff26)
 }
 
 .roadmap {
@@ -27,7 +29,7 @@ html, body {
 }
 
 footer {
-  background-color: #1A2F38;
+  background-color: #1C0F13;
 }
 
 .fs-7 {

@@ -95,7 +95,7 @@ export default function Roadmap() {
         <Row>
           <Col>
             <h2 className="display-6 fw-bold text-white text-center pb-5">
-              <span className="border-bottom border-4 border-success pb-2">
+              <span className="border-bottom border-4 border-primary pb-2">
                 Our Roadmap
               </span>
             </h2>
