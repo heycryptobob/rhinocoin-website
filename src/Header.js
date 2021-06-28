@@ -1,7 +1,7 @@
-import banner from "./banner.png"
+import banner from "./banner.png";
 // import logo from './logo.svg'
 import { Navbar, Container, Nav } from "react-bootstrap";
-import { TelegramPlane } from "@styled-icons/fa-brands";
+import { TelegramPlane, Twitter } from "@styled-icons/fa-brands";
 
 export default function Header() {
   return (
@@ -18,10 +18,21 @@ export default function Header() {
             <Nav.Link href="#roadmap">Roadmap</Nav.Link>
             {/* <Nav.Link href="#fund">Fund</Nav.Link> */}
             {/* <Nav.Link href="#team">Team</Nav.Link> */}
-            <Nav.Link href="https://t.me/RhinoCoinOfficial"
+            <Nav.Link
+              href="https://t.me/RhinoCoinOfficial"
               target="_blank"
               rel="noreferrer"
-              ><TelegramPlane size={24} /></Nav.Link>
+            >
+              <TelegramPlane size={24} />
+            </Nav.Link>
+
+            <Nav.Link
+              href="https://twitter.com/RhinoCoinBSC"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <Twitter size={24} />
+            </Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

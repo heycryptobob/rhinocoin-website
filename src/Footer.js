@@ -1,5 +1,5 @@
 import { Container, Row, Col } from "react-bootstrap";
-import { Telegram } from "@styled-icons/fa-brands";
+import { Telegram, TwitterSquare } from "@styled-icons/fa-brands";
 
 export default function Footer() {
   return (
@@ -27,6 +27,14 @@ export default function Footer() {
               className="text-white"
             >
               <Telegram size={40} />
+            </a>
+            <a
+              href="https://twitter.com/RhinoCoinBSC"
+              target="_blank"
+              rel="noreferrer"
+              className="text-white ms-3"
+            >
+              <TwitterSquare size={40} />
             </a>
           </Col>
         </Row>
