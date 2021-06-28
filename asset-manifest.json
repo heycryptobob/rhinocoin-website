@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/rhinocoin-website/static/css/main.b1893357.chunk.css",
-    "main.js": "/rhinocoin-website/static/js/main.31d0e2a3.chunk.js",
-    "main.js.map": "/rhinocoin-website/static/js/main.31d0e2a3.chunk.js.map",
+    "main.js": "/rhinocoin-website/static/js/main.02146a03.chunk.js",
+    "main.js.map": "/rhinocoin-website/static/js/main.02146a03.chunk.js.map",
     "runtime-main.js": "/rhinocoin-website/static/js/runtime-main.b8d58fc1.js",
     "runtime-main.js.map": "/rhinocoin-website/static/js/runtime-main.b8d58fc1.js.map",
     "static/js/2.de3ec8f8.chunk.js": "/rhinocoin-website/static/js/2.de3ec8f8.chunk.js",
@@ -12,13 +12,13 @@
     "index.html": "/rhinocoin-website/index.html",
     "static/css/main.b1893357.chunk.css.map": "/rhinocoin-website/static/css/main.b1893357.chunk.css.map",
     "static/js/2.de3ec8f8.chunk.js.LICENSE.txt": "/rhinocoin-website/static/js/2.de3ec8f8.chunk.js.LICENSE.txt",
-    "static/media/banner.3617fa63.svg": "/rhinocoin-website/static/media/banner.3617fa63.svg",
-    "static/media/logo.3ec79792.svg": "/rhinocoin-website/static/media/logo.3ec79792.svg"
+    "static/media/banner.434d03a8.png": "/rhinocoin-website/static/media/banner.434d03a8.png",
+    "static/media/logo.376af8ba.png": "/rhinocoin-website/static/media/logo.376af8ba.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b8d58fc1.js",
     "static/js/2.de3ec8f8.chunk.js",
     "static/css/main.b1893357.chunk.css",
-    "static/js/main.31d0e2a3.chunk.js"
+    "static/js/main.02146a03.chunk.js"
   ]
 }
