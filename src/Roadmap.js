@@ -7,13 +7,13 @@ const data = [
   {
     title: "Phase 1",
     items: [
-      { title: "Build Team", state: STATE.ONGOING },
-      { title: "Tokenomics", state: STATE.ONGOING },
+      { title: "Build Team", state: STATE.DONE },
+      { title: "Tokenomics", state: STATE.DONE },
       { title: "Marketing Strategy", state: STATE.ONGOING },
-      { title: "Website Launch", state: STATE.ONGOING },
+      { title: "Website Launch", state: STATE.DONE },
       { title: "100 Telegram Members", state: STATE.DONE },
-      { title: "200 Telegram Members", state: STATE.ONGOING },
-      { title: "500 Telegram Members", state: STATE.TODO },
+      { title: "200 Telegram Members", state: STATE.DONE },
+      { title: "500 Telegram Members", state: STATE.ONGOING },
       { title: "1000 Telegram Members", state: STATE.TODO },
       { title: "Airdrop Competition", state: STATE.TODO },
     ],

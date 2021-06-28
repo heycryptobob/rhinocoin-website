@@ -2,21 +2,21 @@ import { Container, Row, Col, Card } from "react-bootstrap";
 
 const data = [
   {
-    title: "TBD",
+    title: "1 Quadrillion",
     text: "Total supply",
   },
   {
-    title: "TBD",
+    title: "2.5%",
     text: "Max. hold",
   },
   {
-    title: "TBD",
+    title: "0.5%",
     text: "Max. sell",
   },
-  {
-    title: "TBD",
-    text: "Sell lock",
-  },
+  // {
+  //   title: "TBD",
+  //   text: "Sell lock",
+  // },
   {
     title: "12%",
     text: "Transaction fee",
@@ -56,7 +56,7 @@ export default function Tokenomics() {
           </Col>
         </Row>
 
-        <Row xs={1} sm={2} lg={4} className="d-flex justify-content-center align-items-stretch">
+        <Row xs={1} sm={2} lg={3} className="d-flex justify-content-center align-items-stretch">
           {data.map((d, k) => (
             <Feature key={k} feature={d} />
           ))}
