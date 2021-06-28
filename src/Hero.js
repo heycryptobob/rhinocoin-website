@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import logo from "./logo.svg";
+import logo from "./logo.png";
 import { Container, Row, Col } from "react-bootstrap";
 import Tada from "react-reveal/Tada";
 

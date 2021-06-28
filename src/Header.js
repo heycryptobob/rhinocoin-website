@@ -1,4 +1,4 @@
-import banner from "./banner.svg"
+import banner from "./banner.png"
 // import logo from './logo.svg'
 import { Navbar, Container, Nav } from "react-bootstrap";
 import { TelegramPlane } from "@styled-icons/fa-brands";
