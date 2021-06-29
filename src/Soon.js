@@ -25,7 +25,7 @@ export default function Soon() {
       </Row>
       <Row className="pt-5">
         <Col>
-          <h1 className="display-6">Launching Website at 600 Telegram Members</h1>
+          <h1 className="display-6">Launching Website at 500 Telegram Members</h1>
         </Col>
       </Row>
       <Row className="pt-5">
