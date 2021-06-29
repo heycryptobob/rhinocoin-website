@@ -29,8 +29,7 @@ export default function Hero() {
               WIN $RHINO.
             </h1>
             <p className="fs-4">
-              The biggest contest token that also shields you from whales, bots,
-              and dumps.
+              The biggest contest token that also shields you from whales and dumps.
             </p>
           </Col>
           <Col className="d-flex justify-content-center align-items-center">

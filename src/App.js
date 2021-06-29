@@ -9,7 +9,7 @@ import Roadmap from './Roadmap';
 // import Buy from './Buy';
 // import Team from './Team';
 import Footer from './Footer';
-import Header from './Header';
+// import Header from './Header';
 // import Soon from './Soon';
 
 function App() {
