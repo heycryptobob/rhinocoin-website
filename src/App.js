@@ -10,13 +10,13 @@ import Roadmap from './Roadmap';
 // import Team from './Team';
 import Footer from './Footer';
 import Header from './Header';
-import Soon from './Soon';
+// import Soon from './Soon';
 
 function App() {
   return (
     <div className="App">
       {/* <Soon /> */}
-      <Header />
+      {/* <Header /> */}
       <Hero />
       <Features />
       <Tokenomics />
