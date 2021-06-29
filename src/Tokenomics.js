@@ -21,10 +21,10 @@ const data = [
     title: "12%",
     text: "Transaction fee",
   },
-  {
-    title: "20%",
-    text: "Weak hands tax",
-  },
+  // {
+  //   title: "20%",
+  //   text: "Weak hands tax",
+  // },
 ];
 
 function Feature({ feature }) {
@@ -56,20 +56,20 @@ export default function Tokenomics() {
           </Col>
         </Row>
 
-        <Row xs={1} sm={2} lg={3} className="d-flex justify-content-center align-items-stretch">
+        <Row xs={1} sm={2} lg={4} className="d-flex justify-content-center align-items-stretch">
           {data.map((d, k) => (
             <Feature key={k} feature={d} />
           ))}
         </Row>
 
-        <Row>
+        {/* <Row>
           <Col md={{ offset: 3, span: 6 }} className="text-center">
             <p className="fs-7">
               Weak hands tax is applied to sell transactions where the wallet
               had a buy transaction in the previous 24 hours.
             </p>
           </Col>
-        </Row>
+        </Row> */}
       </Container>
   );
 }

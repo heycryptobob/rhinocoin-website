@@ -11,7 +11,7 @@ const data = [
   },
   {
     title: "3% Fund",
-    text: "3% will go to the token fund that is used to reward our competition participants.",
+    text: "3% will go to the token fund for rewards, marketing, and donations.",
   },
   {
     title: "1% Burn",

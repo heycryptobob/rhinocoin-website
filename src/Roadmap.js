@@ -9,11 +9,11 @@ const data = [
     items: [
       { title: "Build Team", state: STATE.DONE },
       { title: "Tokenomics", state: STATE.DONE },
-      { title: "Marketing Strategy", state: STATE.ONGOING },
+      { title: "Marketing Strategy", state: STATE.DONE },
       { title: "Website Launch", state: STATE.DONE },
       { title: "100 Telegram Members", state: STATE.DONE },
       { title: "200 Telegram Members", state: STATE.DONE },
-      { title: "500 Telegram Members", state: STATE.ONGOING },
+      { title: "500 Telegram Members", state: STATE.DONE },
       { title: "1000 Telegram Members", state: STATE.TODO },
       { title: "Airdrop Competition", state: STATE.TODO },
     ],

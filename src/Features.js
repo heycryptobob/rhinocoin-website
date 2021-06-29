@@ -17,10 +17,10 @@ const data = [
     title: "Anti-Whale",
     text: "Every wallet is limited to 2.5% of the total supply.",
   },
-  {
-    title: "Anti-Bot",
-    text: "Short-term holders are subject to additional fees.",
-  },
+  // {
+  //   title: "Anti-Bot",
+  //   text: "Short-term holders are subject to additional fees.",
+  // },
   {
     title: "Anti-Dump",
     text: "Holders can only sell maximum 0.5% of the total supply.",
@@ -54,7 +54,7 @@ export default function Features() {
           </h2>
         </Col>
       </Row>
-      <Row xs={1} md={2} lg={3} className="d-flex align-items-stretch">
+      <Row xs={1} md={2} lg={3} className="d-flex justify-content-center align-items-stretch">
         {data.map((d, k) => (
           <Feature key={k} feature={d} />
         ))}

@@ -1,32 +1,32 @@
 import './App.scss';
-// import Features from './Features';
-// import Hero from './Hero';
-// import Tokenomics from './Tokenomics';
-// import Distribution from './Distribution';
-// import Roadmap from './Roadmap';
+import Features from './Features';
+import Hero from './Hero';
+import Tokenomics from './Tokenomics';
+import Distribution from './Distribution';
+import Roadmap from './Roadmap';
 // import Fund from './Fund';
 // import Contract from './Contract';
 // import Buy from './Buy';
 // import Team from './Team';
-// import Footer from './Footer';
-// import Header from './Header';
+import Footer from './Footer';
+import Header from './Header';
 import Soon from './Soon';
 
 function App() {
   return (
     <div className="App">
-      <Soon />
-      {/* <Header />
+      {/* <Soon /> */}
+      <Header />
       <Hero />
       <Features />
       <Tokenomics />
       <Distribution />
-      <Roadmap /> */}
+      <Roadmap />
       {/* <Fund />
       <Team />
       <Contract />
       <Buy /> */}
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }
