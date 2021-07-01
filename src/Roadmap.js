@@ -15,14 +15,14 @@ const data = [
       { title: "100 Telegram Members", state: STATE.DONE },
       { title: "200 Telegram Members", state: STATE.DONE },
       { title: "500 Telegram Members", state: STATE.DONE },
-      { title: "1000 Telegram Members", state: STATE.TODO },
-      { title: "Apply Coinhunt & Coinsniper", state: STATE.TODO },
+      { title: "1000 Telegram Members", state: STATE.DONE },
+      { title: "Apply Coinhunt & Coinsniper", state: STATE.DONE },
     ],
   },
   {
     title: "Phase 2",
     items: [
-      { title: "Presale", state: STATE.TODO },
+      { title: "Presale", state: STATE.ONGOING },
       { title: "Launch", state: STATE.TODO },
       { title: "100 Holders", state: STATE.TODO },
       { title: "500 Holders", state: STATE.TODO },
