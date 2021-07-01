@@ -11,10 +11,12 @@ import Roadmap from './Roadmap';
 import Footer from './Footer';
 // import Header from './Header';
 // import Soon from './Soon';
+import Warning from './Warning'
 
 function App() {
   return (
     <div className="App">
+      <Warning />
       {/* <Soon /> */}
       {/* <Header /> */}
       <Hero />
