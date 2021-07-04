@@ -6,13 +6,7 @@ import { Alert } from 'react-bootstrap'
 export default function Warning() {
   return (
     <Alert variant="success" className="mb-0 rounded-0 text-center">
-      Presale on {" "}
-      <Alert.Link
-      href="https://dxsale.app/app/v2_9/defipresale?saleID=244&chain=BSC"
-      target="_blank"
-        rel="noreferrer"
-      >DXSale</Alert.Link>
-      . Stay safe, only join the {" "}
+      Stay safe, only join the {" "}
       <Alert.Link
         href="https://twitter.com/RhinoCoinBSC"
         target="_blank"
