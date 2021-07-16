@@ -22,10 +22,10 @@ const data = [
   {
     title: "Phase 2",
     items: [
-      { title: "Launchpad", state: STATE.ONGOING },
-      { title: "Launch", state: STATE.TODO },
-      { title: "100 Holders", state: STATE.TODO },
-      { title: "500 Holders", state: STATE.TODO },
+      { title: "Launchpad", state: STATE.DONE },
+      { title: "Launch", state: STATE.DONE },
+      { title: "100 Holders", state: STATE.DONE },
+      { title: "500 Holders", state: STATE.DONE },
       { title: "1,000 Holders", state: STATE.TODO },
       { title: "5 Competitions", state: STATE.TODO },
       { title: "10 Competitions", state: STATE.TODO },
