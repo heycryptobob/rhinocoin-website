@@ -18,6 +18,10 @@ export default function Header() {
             <Nav.Link href="#roadmap">Roadmap</Nav.Link>
             {/* <Nav.Link href="#fund">Fund</Nav.Link> */}
             {/* <Nav.Link href="#team">Team</Nav.Link> */}
+            <Nav.Link href="https://exchange.pancakeswap.finance/#/swap?outputCurrency=0xe7886f869d7ae46f5ff88034125a445ea01576e6" target="_blank">Buy</Nav.Link>
+            <Nav.Link href="https://www.dextools.io/app/pancakeswap/pair-explorer/0xb855d091518961269af7ed08dcadb54aa84d53ab" target="_blank">Chart</Nav.Link>
+            <Nav.Link href="https://bscscan.com/token/0xe7886f869d7ae46f5ff88034125a445ea01576e6" target="_blank">Contract</Nav.Link>
+
             <Nav.Link
               href="https://t.me/RhinoCoinOfficial"
               target="_blank"
