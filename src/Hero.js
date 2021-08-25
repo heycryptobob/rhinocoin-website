@@ -35,8 +35,8 @@ export default function Hero() {
             <Button variant="outline-primary" className="ms-2" size="lg" href="https://www.dextools.io/app/pancakeswap/pair-explorer/0xb855d091518961269af7ed08dcadb54aa84d53ab" target="_blank">Chart</Button>
             <Button variant="outline-primary" className="ms-2" size="lg" href="https://bscscan.com/token/0xe7886f869d7ae46f5ff88034125a445ea01576e6" target="_blank">Contract</Button>
             <Button variant="outline-primary" className="ms-2" size="lg" href="https://t.me/RhinoCoinOfficial" target="_blank">Telegram</Button>
-            <p className="fs-4">
-              <code>0xe7886f869d7ae46f5ff88034125a445ea01576e6</code>
+            <p>
+              <span>Contract Address: </span><code>0xe7886f869d7ae46f5ff88034125a445ea01576e6</code>
             </p>
           </Col>
           <Col className="d-flex justify-content-center align-items-center">
