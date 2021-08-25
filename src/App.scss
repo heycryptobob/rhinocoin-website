@@ -5,6 +5,7 @@ $warning-color: #FCD581;
 $success-color: #09E85E;
 $body-color: rgb(255 255 255 / 40%);
 $primary-color: #1AECF7;
+$dark-color: #114B5F;
 
 $theme-colors: (
     "success": $success-color,
@@ -12,6 +13,7 @@ $theme-colors: (
     "danger": $danger-color,
     "body": $body-color,
     "primary": $primary-color,
+    "dark": $dark-color,
 );
 
 @import "~bootstrap/scss/bootstrap";
