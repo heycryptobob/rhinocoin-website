@@ -1,34 +1,21 @@
 import './App.scss';
-import Features from './Features';
-import Hero from './Hero';
-import Tokenomics from './Tokenomics';
-import Distribution from './Distribution';
-import Roadmap from './Roadmap';
-// import Fund from './Fund';
-// import Contract from './Contract';
-// import Buy from './Buy';
-// import Team from './Team';
-import Footer from './Footer';
-// import Header from './Header';
-// import Soon from './Soon';
-import Warning from './Warning'
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
+import Home from './Home';
 
 function App() {
   return (
     <div className="App">
-      <Warning />
-      {/* <Soon /> */}
-      {/* <Header /> */}
-      <Hero />
-      <Features />
-      <Tokenomics />
-      <Distribution />
-      <Roadmap />
-      {/* <Fund />
-      <Team />
-      <Contract />
-      <Buy /> */}
-      <Footer />
+      <Router>
+        <Switch>
+          <Route path="/stonksbros">Stonks Bros</Route>
+          <Route path="/"><Home /></Route>
+        </Switch>
+      </Router>
     </div>
   );
 }
