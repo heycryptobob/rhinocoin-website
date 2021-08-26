@@ -85,9 +85,13 @@ function StonksBros() {
               on Twitter
             </li>
             <li>
-              <strong>Quote Retweet</strong> the <a href="https://twitter.com/StonksBros/status/1430860080786800643?s=20" target="_blank"
-                rel="noreferrer">pinned Tweet</a>, tagging 3 friends and adding the
-              hashtag <code>#CryptoUNITY</code>
+              Retweet and Quote Retweet the <a href="https://twitter.com/StonksBros/status/1430860080786800643?s=20" target="_blank"
+                rel="noreferrer">pinned Tweet</a>:
+              <ol>
+                <li>Tag 3 friends</li>
+                <li>Hashtag <code>#CryptoUNITY</code></li>
+                <li>Add wallet address with $RHINO (winner funds will be sent to this wallet).</li>
+              </ol>
             </li>
             <li>
               Join the{" "}
