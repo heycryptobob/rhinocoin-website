@@ -85,8 +85,9 @@ function StonksBros() {
               on Twitter
             </li>
             <li>
-              Quote Retweet the pinned Tweet, tagging 3 friends and adding the
-              hashtag #CryptoUNITY
+              <strong>Quote Retweet</strong> the <a href="https://twitter.com/StonksBros/status/1430860080786800643?s=20" target="_blank"
+                rel="noreferrer">pinned Tweet</a>, tagging 3 friends and adding the
+              hashtag <code>#CryptoUNITY</code>
             </li>
             <li>
               Join the{" "}
