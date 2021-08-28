@@ -8,14 +8,12 @@ export default function Warning() {
   return (
     <Alert variant="info" className="bg-secondary mb-0 rounded-0 text-center d-flex justify-content-center align-items-center">
       <Alert.Link
-        href="https://t.me/RhinoCoinOfficial"
-        target="_blank"
-        rel="noreferrer"
+        href="/StonksBros"
         className="d-flex justify-content-center align-items-center text-decoration-none text-white"
       >
         <TelegramPlane size={20} />
         <span className="ms-1">
-        Join the RhinoCoin Telegram community by clicking here.
+        Join the ongoing STONKS BROS contest
         </span>
       </Alert.Link>
     </Alert>
